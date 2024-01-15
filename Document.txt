@@ -1,0 +1,40 @@
+# Documentation
+
+Dataset Understanding:
+- Loaded the medical transcription dataset ('mtsamples.csv').
+- Displayed basic information about the dataset, including features and labels.
+- Displayed basic statistics about the numerical columns.
+- Displayed unique values in the 'medical_specialty' column.
+
+Data Preprocessing:
+- Cleaned text by removing special characters, lowercasing, and tokenization.
+- Handled missing values and duplicates.
+- Split the data into training and validation sets.
+
+Train/Fine-tune on given domain-specific dataset:
+- Extracted features using TF-IDF.
+- Trained a RandomForestClassifier.
+
+ Incorporate a language model:
+- Incorporated spaCy for tokenization.
+
+Evaluate the effectiveness:
+- Evaluated the model using the classification report.
+
+EDA on the train data and test results:
+- Explored the distribution of medical specialties.
+- Visualized the most common words in transcriptions.
+- Visualized the confusion matrix.
+
+Challenges and Solutions:
+- Handled missing values and duplicates to ensure clean data.
+- Adapted the code to handle variations in the dataset structure.
+- have trouble with the spacy library.
+
+Results:
+- Achieved insights into the distribution of medical specialties and common words.
+- Evaluated the model's performance using the confusion matrix.
+
+Future Considerations:
+- Further fine-tuning of the model for improved performance.
+- Exploration of advanced language models for better feature extraction.
